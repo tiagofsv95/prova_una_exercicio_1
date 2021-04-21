@@ -1,0 +1,99 @@
+body {
+  color: #212529;
+}
+
+.main {
+  background-color: #c4cace;
+  padding-bottom: 1rem;
+}
+
+.table_section {
+  margin: 1rem;
+}
+
+.navbar_nav_div {
+  margin-left: 1rem;
+  margin-right: auto;
+}
+
+.navbar-toggler {
+  margin-right: auto;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.main_title {
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.main_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.main_description {
+  margin: 1.5rem;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.scheduleTableHeadRow,
+.scheduleTableBodyRow {
+  text-align: center;
+}
+
+#schedule {
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+.form_section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.submit_form_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  margin-top: 1rem;
+}
+
+.copyright-text {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main_img {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .show .nav-item {
+    margin-top: 0.5rem;
+  }
+  .form_section {
+    display: block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+  }
+}
