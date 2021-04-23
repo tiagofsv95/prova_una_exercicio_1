@@ -9,3 +9,9 @@ function show_toggle_menu(){
     navBarContent.classList.remove('show')
   }
 }
+
+function submitForm() {
+  alert('Inscrição realizada com sucesso')
+
+  window.location.replace('index.html')
+}
